@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      port: '27017'
+      username: myUserAdmin
+      password: admin
+      uri: mongodb://localhost:27017/gestion-stock
+  jpa:
+    hibernate:
+      ddl-auto: create
