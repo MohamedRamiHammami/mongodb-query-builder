@@ -1,4 +1,4 @@
-package com.app.blotter.model;
+package com.app.blotter.model.filter;
 
 
 import java.util.Arrays;
@@ -19,7 +19,29 @@ public enum PredicateEnum {
     Negative("Negative"),
     Zero("Zero"),
     Between("Between"),
-    NotBetween("NotBetween");
+    NotBetween("NotBetween"),
+
+    COL("COL"),
+    EQ("EQ"),
+    NEQ("NEQ"),
+    GT("GT"),
+    LT("LT"),
+    GTE("GTE"),
+    OR("OR"),
+    Or("Or"),
+    AND("AND"),
+    And("And"),
+    NOT("NOT"),
+    Not("Not"),
+    BETWEEN("BETWEEN"),
+    IN("IN"),
+    In("In"),
+    IS_BLANK("IS_BLANK"),
+    IsBlank("IsBlank"),
+    CONTAINS("CONTAINS"),
+    STARTS_WITH("STARTS_WITH"),
+    ENDS_WITH("ENDS_WITH"),
+    FROM_EUROPE("FROM_EUROPE");
 
     private final String name;
 

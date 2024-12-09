@@ -1,4 +1,4 @@
-package com.app.blotter.model;
+package com.app.blotter.model.filter;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

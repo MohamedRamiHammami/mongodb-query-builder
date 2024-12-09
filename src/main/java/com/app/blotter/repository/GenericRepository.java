@@ -26,8 +26,9 @@ public class GenericRepository {
      * @return A list of documents from the collection.
      */
     public List<Document> findByRequest(Query query, String collectionName, int startRow, int endRow) {
-        query.skip(startRow).limit(endRow - startRow);
-        return mongoTemplate.find(query, Document.class, collectionName);
+        Query q = Query.of(query);
+        q.skip(startRow).limit(endRow - startRow);
+        return mongoTemplate.find(q, Document.class, collectionName);
     }
 
     /**

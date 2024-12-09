@@ -1,5 +1,6 @@
-package com.app.blotter.model;
+package com.app.blotter.model.filter;
 
+import com.app.blotter.model.AdaptableColumnDataType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

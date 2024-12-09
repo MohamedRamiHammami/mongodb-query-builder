@@ -1,4 +1,4 @@
-package com.app.blotter.util;
+package com.app.blotter.builders;
 
 import com.app.blotter.model.AdaptableColumnDataType;
 import org.springframework.data.mongodb.core.query.Criteria;
